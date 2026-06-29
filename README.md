@@ -215,14 +215,14 @@ Frontend Developer
 <p>
 GitHub:<br>
 <a href="https://github.com/kenansonmez1617-hub" target="_blank">
-https://github.com/KULLANICI_ADINIZ
+https://github.com/kenansonmez1617-hub
 </a>
 </p>
 
 <p>
 LinkedIn:<br>
 <a href="https://www.linkedin.com/in/kenan-sonmez" target="_blank">
-https://www.linkedin.com/in/KULLANICI_ADINIZ
+https://www.linkedin.com/in/kenan-sonmez
 </a>
 </p>
 
