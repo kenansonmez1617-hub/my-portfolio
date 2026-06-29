@@ -1,0 +1,44 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Helvatica Neue';
+  src: url('./assets/fonts/helvetica-neu.tff') format('ttf');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  /* ← @ işareti eksikti */
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input,
+textarea {
+  font-family: 'Helvetica Neue';
+}
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* ← absolute değil fixed */
+  top: 0;
+  left: 0;
+  width: 100%; /* ← tam ekran */
+  height: 100%; /* ← tam ekran */
+  background-color: #1d1d1d; /* ← içeriği kapatır */
+  z-index: 9999;
+  animation: fadeOut 1s 2s; /* ← 2s sonra kaybolur */
+  animation-fill-mode: forwards;
+}
